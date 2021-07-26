@@ -1,0 +1,6 @@
+<launch>
+
+    <node pkg="ros_somat" type="robot_cleaner.py" name="controller" />
+    <node pkg="turtlesim" type="turtlesim_node" name="listener" />
+
+</launch>
